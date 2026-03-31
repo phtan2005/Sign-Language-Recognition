@@ -1,0 +1,39 @@
+{
+  "p80_threshold": 13.286118980169972,
+  "feature_cols": [
+    "log_play_count",
+    "log_digg_count",
+    "log_comment_count",
+    "log_share_count",
+    "log_collect_count",
+    "like_view_ratio",
+    "comment_view_ratio",
+    "share_view_ratio",
+    "save_view_ratio",
+    "share_like_ratio",
+    "engagement_rate",
+    "weighted_engagement",
+    "duration",
+    "vq_score",
+    "user_verified",
+    "music_original",
+    "duet_enabled",
+    "stitch_enabled",
+    "is_ad",
+    "post_hour",
+    "post_dow",
+    "is_weekend",
+    "is_peak_hour"
+  ],
+  "label_col": "is_viral",
+  "total_rows": 9985538,
+  "model_path": "/content/drive/MyDrive/TikTok_Viral_Project/models/rf_viral_model",
+  "metrics": {
+    "auc_roc": 0.9998,
+    "accuracy": 0.9945,
+    "f1_score": 0.9944,
+    "precision": 0.9945,
+    "recall": 0.9945
+  }
+}
+
